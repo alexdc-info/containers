@@ -1,1 +1,2 @@
 tidyverse@2.0.0
+languageserver@0.3.16
