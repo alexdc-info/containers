@@ -58,14 +58,4 @@ RUN Rscript -e \
     "install.packages('pak')"
 
 RUN Rscript -e \
-    "packages <- readLines('requirements_r.txt'); \
-    for(pkg in packages) { \
-        cat('Installing:', pkg, '\n'); \
-        tryCatch({ \
-            pak::pkg_install(pkg); \
-            cat('✓ Successfully installed:', pkg, '\n') \
-        }, error = function(e) { \
-            cat('✗ Failed to install:', pkg, '- Error:', e$message, '\n'); \
-            quit(status=1) \
-        }) \
-    }"
+    "pak::pkg_install(readLines('requirements_r.txt'))"
