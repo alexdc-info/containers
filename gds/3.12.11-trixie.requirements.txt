@@ -23,6 +23,7 @@ seaborn
 yellowbrick
 altair
 bokeh
+vl-convert-python
 
 # machine learning
 scikit-learn
