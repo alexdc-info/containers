@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     unzip \
     xvfb \
     firefox-esr \
+    fonts-linuxlibertine \
     inkscape \
     gdal-bin \
     gdal-data \
