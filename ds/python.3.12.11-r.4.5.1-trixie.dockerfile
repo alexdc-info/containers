@@ -13,7 +13,6 @@ COPY ./python.3.12.11-r.4.5.1-trixie.requirements_r.txt \
 RUN apt-get update && \
     apt-get install -y \
     ca-certificates \
-    fonts-linuxlibertine \
     gnupg \
     wget \
     && rm -rf /var/lib/apt/lists/*
