@@ -1,0 +1,50 @@
+# scientific computing
+numpy>=2.0.0
+#scipy
+#statsmodels
+
+# data manipulation and analysis
+pandas>=2.0.0
+#dask
+#ydata-profiling
+#pyarrow
+
+# web scraping and http requests
+#requests
+#scrapy
+#beautifulsoup4
+#selenium
+#webdriver-manager
+
+# data visualization
+plotly
+matplotlib
+seaborn
+yellowbrick
+altair
+bokeh
+vl-convert-python
+
+# machine learning
+#scikit-learn
+#xgboost
+#lightgbm
+#optuna
+#boruta
+#feature-engine
+
+# geospatial analysis
+#pyap
+#usaddress
+#pyproj
+#ipyleaflet
+#rasterio
+#geoplot
+#folium
+#geopandas
+#shapely
+#segregation
+
+# everything else
+jupyterlab
+#openpyxl
